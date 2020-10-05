@@ -11,6 +11,8 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
+//username is 'admin'
+string password = "123456";
 namespace Glasswall.IcapServer.CloudProxyApp
 {
     public class CloudProxyApplication
