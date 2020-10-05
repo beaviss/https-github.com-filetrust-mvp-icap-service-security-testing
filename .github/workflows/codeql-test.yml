@@ -63,10 +63,11 @@ jobs:
     #    and modify them (or add more) to build your code if your project
     #    uses a compiled language
 
-    - run: |
-       ./configure
-       make 
-       make install
+    - run: ./configure
+    - run: make
+    - run: make install 
+      shell: bash 
+       
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
