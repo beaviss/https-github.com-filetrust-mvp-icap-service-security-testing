@@ -65,7 +65,7 @@ jobs:
     - run: |
         cd c-icap
         autoreconf --install
-        make
+        automake
         make install 
 
        
