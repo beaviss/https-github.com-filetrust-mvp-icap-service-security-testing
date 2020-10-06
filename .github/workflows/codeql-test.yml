@@ -4,8 +4,7 @@
 # You may wish to alter this file to override the set of languages analyzed,
 # or to provide custom queries or build logic.
 name: "CodeQL"
-paths:
-  - c-icap
+
 on:
   push:
     branches: [master]
@@ -18,7 +17,7 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
 #    strategy:
 #      fail-fast: false
