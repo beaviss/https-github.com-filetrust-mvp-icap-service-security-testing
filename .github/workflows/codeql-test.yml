@@ -64,7 +64,8 @@ jobs:
 
     - run: |
         cd c-icap
-        configure
+        reconf --install
+        ./configure
         make
         make install 
 
