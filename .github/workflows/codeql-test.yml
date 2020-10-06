@@ -63,7 +63,7 @@ jobs:
     #    uses a compiled language
 
     - run: |
-        autoconf
+        autoreconf --install
         make
         make install 
 
